@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}

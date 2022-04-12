@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>JMU</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+            }
+           /* .container > *{
+                background-color: #dddddd;
+            }
+            .container > *:nth-child(even){
+                background-color: #aaaaaa;
+            }
+            /* a "." instead of words in grid-template-areas leaves a white space*/
+            .container{
+                display: grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-auto-rows: minmax(80px, auto);
+                grid-gap: 6px;
+                max-width: 1200px;
+                position: relative;
+                margin: 0 auto;
+                grid-template-areas: 
+                    "logo header header header"
+                    "nav nav nav nav"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "overview overview overview overview"
+                    "overview overview overview overview"
+                    "main main image1 image1"
+                    "main main image1 image1"
+                    "main main image1 image1"
+                    "main main image2 image2"
+                    "main main image2 image2"
+                    "main main image2 image2"
+                    "footer footer footer footer"
+                    "footer footer footer footer";
+                font-family: 'Montserrat', sans-serif;
+            }
+            .logo{
+                grid-area: logo;
+            }
+            header{
+                grid-area: header;
+                display:flex;
+                justify-content:space-around;
+                align-items: center;
+                text-transform:uppercase;   
+            }
+            .jmu{
+                grid-area: jmu;
+            }
+            .harrisonburg{
+                grid-area: harrisonburg;
+            }
+            .photos{
+                grid-area: photos;
+            }
+            .links{
+                grid-area: links;
+            }
+            nav{
+                grid-area: nav;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-transform: uppercase;
+                background-color: rebeccapurple;
+            }
+            section{
+                
+            }
+            .heroimage{
+                grid-area: heroimage;
+                background-image: url(images/carrier.jpeg);
+                background-repeat: no-repeat;
+                background-position: right top;
+                background-attachment: fixed;
+            }
+            .overview{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                grid-area: overview;
+                background-color: #CBC3E3;
+            }
+            main{
+                grid-area: main;
+                padding: 10px;
+                font-size: 18px;
+            }
+            .image1{
+                grid-area: image1;
+                padding: 10px;   
+            }
+            .image2{
+                grid-area: image2;
+                padding: 10px;
+            }
+            footer{
+                grid-area: footer;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #CBC3E3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo"> <a href="home.html"><img src="images/starter-logo.jpg" alt="Harrisnburg, Virginia Home to the JMU Dukes"></a></div>
+            <header><h2> Welcome to Harrisonburg, Virginia! </h2></header>
+            <nav> 
+                <div><a href="jmu.html">JMU</a></div>
+                <div><a href="downtown.html">Downtown</a></div>
+                <div><a href="photos.html">Photo Gallery</a></div>
+                <div><a href="links.html">Local Shops and Restaurants</a></div>
+            </nav>
+            <h2 class="heroimage"> </h2>
+            <h1 class="overview">James Madison University's Culture and Community</h1>
+            <main>  <p>James Madison University has left a lasting impact on the Harrisonburg community for over 100 years. In the time that it has taken to build JMU to what is is today, James Madison Univeristy has provided a lasting positive impact for all that study or work within the JMU Community. Working at James Madison, as either a student or soley an employee, offers individuals a workplace they can grow within and with a community they can make a lasting impact in. The meaningful relationships and experiences taken away from a job experience at JMU is truly unmatched to any other work experience. For students studying at JMU, the community and memories made here at JMU are fostered by JMU's efforts to provide students with organizations, groups and peers that can offer them such a positive expereince while at college. The organizations, whether primarily social or professional, help students to gain a sense of identity and belonging, develop relationships with peers, and be apart of something that makes JMU's large campus seem more like a home.</p>
+            <p>Other than bring possitive experiences for students and jobs to the Harrisonburg community, James Madison University feels like the heart of Harrisonburg. From attending football games to visiting the Arboretum and enjoying the outdoors, the Harrisonburg community comes together with the help of JMU. As James Madison is growing each year, JMU is encorporated more in the community and depends on the community to support it's growth. More job opportunities and overall involvement in JMU is necessary to ensure everything is running smoothly and operating appropriately. Overall, the community and JMU work together interchangeably to foster the growth, learning and enrichment of all residents and students. By doing so JMU impacts the community in a positive way while also adheering to the responsibilites it take to run and opperate James Madison University as a whole. </p>
+            </main>
+            <div class="image1"> 
+                <img src="images/maincampus-overview.jpeg" alt="Birdseye view of main campus"> <p> On James Madison's beautiful campus students are surrounded by friends and peers that support growth of this active and enriching learning environment. </p>
+            </div>
+            <div class="image2">  
+                <img src="images/bridgeforth-stadium-new.png" alt="Overhead view of Bridgeforth football stadium"> <p> James Madison University is home to the Dukes. Most students show their school spirit by participating in attendance to football and supporting thier team. On Game Days it is typical for families, organizations and students to tailgate and get excited for the game. At tailgates there is usually food, games and people socializing with eachother. This is one way the JMU community comes together.</p>
+            </div>
+            <footer>
+                <div>Home</div>
+                <div>More on James Madison University</div>
+                <div>More on Downtown Harrisonburg</div>
+                <div>Plan a Visit</div>
+                <div>Contact Us</div>
+                <div>Private Policy</div>
+            </footer>
+        </div>
+    </body>
+</html>

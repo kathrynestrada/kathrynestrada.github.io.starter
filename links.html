@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Local Shops and Restaurants</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            /*.container > *{
+                background-color: #dddddd;
+            }
+            .container > *:nth-child(even){
+                background-color: #aaaaaa;
+            }
+            /* a "." instead of words in grid-template-areas leaves a white space*/
+            .container{
+                display: grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-auto-rows: minmax(80px, auto);
+                grid-gap: 6px;
+                max-width: 1200px;
+                position: relative;
+                margin: 0 auto;
+                grid-template-areas: 
+                    "logo header header header"
+                    "nav nav nav nav"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "heroimage heroimage heroimage heroimage"
+                    "restaurants restaurants restaurants restaurants"
+                    "restaurants restaurants restaurants restaurants"
+                    "box1 box1 box2 box2"
+                    "box1 box1 box2 box2"
+                    "box3 box3 box4 box4"
+                    "box3 box3 box4 box4"
+                    "stores stores stores stores"
+                    "stores stores stores stores"
+                    "box7 box7 box8 box8"
+                    "box7 box7 box8 box8"
+                    "box9 box9 box10 box10"
+                    "box9 box9 box10 box10"
+                    "footer footer footer footer"
+                    "footer footer footer footer";
+                font-family: 'Montserrat', sans-serif;
+            }
+            div{
+                grid-area: logo;
+            }
+            header{
+                grid-area: header;
+                display:flex;
+                justify-content:space-around;
+                align-items: center;
+                text-transform:uppercase;   
+            }
+            .jmu{
+                grid-area: jmu;
+            }
+            .harrisonburg{
+                grid-area: harrisonburg;
+            }
+            .photos{
+                grid-area: photos;
+            }
+            .links{
+                grid-area: links;
+            }
+            nav{
+                grid-area: nav;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-transform: uppercase;
+                background-color: rebeccapurple;
+            }
+            section{
+                
+            }
+            .heroimage{
+                grid-area: heroimage;
+                background-image: url(images/eastcampus-sunset-large.jpg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-attachment: fixed;
+            }
+            aside{
+               padding: 10px; 
+            }
+            .restaurants{
+                grid-area: restaurants;
+                background-color: #CBC3E3;
+            }
+            .float{
+                float: left;
+                margin-right: 10px;
+            }
+            h1{
+                display: flex;
+                justify-content: space-around;
+                align-items: center; 
+            }
+            .box1{
+                grid-area: box1;
+            }
+            .box2{
+                grid-area: box2;
+            }
+            .box3{
+                grid-area: box3;
+            }
+            .box4{
+                grid-area: box4;
+            }
+            .stores{
+                grid-area: stores;
+                background-color: #CBC3E3;
+            }
+            .box7{
+                grid-area: box7;
+            }
+            .box8{
+                grid-area: box8;
+            }
+            .box9{
+                grid-area: box9;
+            }
+            .box10{
+                grid-area: box10;
+            }
+            .box10{
+                grid-area: box10;
+            }
+            footer{
+                grid-area: footer;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #CBC3E3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div> <a href="home.html"><img src="images/starter-logo.jpg" alt="Harrisnburg, Virginia Home to the JMU Dukes"></a> </div>
+            <header><h2> Welcome to Harrisonburg, Virginia! </h2></header>
+            <nav> 
+                <div><a href="jmu.html">JMU</a></div>
+                <div><a href="downtown.html">Downtown</a></div>
+                <div><a href="photos.html">Photo Gallery</a></div>
+                <div><a href="links.html">Local Shops and Restaurants</a></div>
+            </nav>
+            <h2 class="heroimage"> </h2>
+            <h1 class="restaurants"> Local Restaurants </h1>
+            <aside class="box1"> 
+                <a href="http://www.bellalunawoodfired.com/"><img src="images/bellaluna-small.jpg" class="float" alt="Bella Luna Logo"></a>
+                <p>Bella Luna is known for their farm-to-table food and inviting dining environment. They specialize in hand-crafted drinks, woodfire pizza, fresh pastas and salads and much more. To learn more about Bella Luna's menu, location and make a reservation click on their logo!</p>
+            </aside>
+            <aside class="box2"> 
+                <a href="https://www.magnoliastacos.com/"><img src="images/magnoliaslogo-small.jpg" class="float" alt="Magnolia's Logo"></a>
+                <p>Magnolia's taco and tequila bar is known for their fresh tacos and hand-crafted cocktails. The wide selection of both tacos and drinks gives customers an authenic experience while dining. Their introduction of contemporary flavors with traditional flavors and spices makes Magnolia's a local favorite in Harrisonburg. To learn more about Magnolia's menu, location and make a reservation click on their logo! </p>
+            </aside>
+            <aside class="box3"> 
+                <a href="https://www.klinesdairybar.com/"><img src="images/klineslogo-small.jpg" class="float" alt="Kline's Logo"></a>
+                <p>Kline's Dairy Bar is a cult classic and easily the first place many JMU students go to once arriving in Harrisonburg. Kline's has a deep history in the Harrisonburg community as it has been open since 1943. The recipes and practices have been the same since they have opened which gives the ice cream it's fresh and authenic flavor. To learn more about Kline's history, menu and location click on their logo!</p>
+            </aside>
+            <aside class="box4"> 
+                <a href="https://www.shenandoahbicycle.com/pulp-smoothie-cafe/"><img src="images/pulplogo-small.jpg" class="float" alt="Pulp Cafe's Logo"></a>
+                <p>Pulp Cafe was added to Shenandoah Bicycle Company in 2010 to give a more inviting element to the shop. Harrisonburg is known for it's hiking and biking trails so it is very fitting to enjoy an acai bowl or smoothie in this typical Harrisonburg environment. Pulp Cafe adds a healthy option of food associated with an active lifestyle. To learn more about Pulp Cafe's menu and location click on their logo!</p>
+            </aside>
+            <h1 class="stores"> Local Shops and Stores </h1>
+            <aside class="box7"> 
+                <a href="https://www.shirleyspopcorn.com/"><img src="images/shirleyslogo-small.jpg" class="float" alt="Shirley's Popcorn Logo"></a>
+                <p>Shirley's Popcorn specializes in gourmet popcorn for friends and family to large scale events. Shirley's popcorn is the perfect gift for a loved one, wedding favor or fundraising event. Shirley's Popcorn customer's love how many flavors Shirley's provides while maintaining freshness. To learn more about Shirley's menu, location and order online click on their logo!</p>
+            </aside>
+            <aside class="box8"> 
+                <a href="https://www.walkaboutoutfitter.com/"><img src="images/walkaboutlogo-small.jpg" class="float" alt="Walkabout Outfitter's Logo"></a>
+                <p> Walkabout Outfitters is a necessity for any and all hiking, biking and outdoor lovers. They have a wide selection of clothing, shoes and all other accessories one may need for their next outdoor adventure! They also carry some fan-favorite outdoor brands like The North Face, Patagonia and many more. To learn more about Walkabout Outfitter's products, location or order online click on their logo!</p>
+            </aside>
+            <aside class="box9"> 
+                <a href="https://www.shoptheyellowbutton.com/"><img src="images/yellowbuttonlogo-small.jpg" class="float" alt="Yellow Button Logo"></a>
+                <p>The Yellow Button is a women's clothing store which specializes in focusing on the latest trends and staple pieces needed in every closet. Yellow Button prides themselves on their trendy clothing, accessories and shoes which will always leave you wanting to add something new to your wardrobe. To learn more about The Yellow Button's products or location click on their logo!</p>
+            </aside>
+            <aside class="box10"> 
+                <a href="https://withsimplicitybeauty.com/"><img src="images/withsimplicitylogo-small.jpg" class="float" alt="withSimplicity Logo"></a>
+                <p>withSimplicity is a beauty brand which specializes in clean skincare, body care and makeup. Their products are made with natural ingredients and without all the harmful chemicals and ingredients found in some other beauty products. To learn more about withSimplicity's products, location or to order online click on their logo!</p>
+            </aside>
+            <footer> 
+                <div>Home</div>
+                <div>More on James Madison University</div>
+                <div>More on Downtown Harrisonburg</div>
+                <div>Plan a Visit</div>
+                <div>Contact Us</div>
+                <div>Private Policy</div> 
+            </footer>
+        </div>
+    </body>
+</html>
